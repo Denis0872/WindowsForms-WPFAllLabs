@@ -1,0 +1,11 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\bin\Debug\WindowsFormsLab1Task4.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\bin\Debug\WindowsFormsLab1Task4.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\bin\Debug\WindowsFormsLab1Task4.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\WindowsFormsLab1Task4.ParentForm.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\WindowsFormsLab1Task4.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\ParentForm.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\ParentForm.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\WindowsFormsLab1Task4.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\WindowsFormsLab1Task4.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\ParentForm.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task4\WindowsFormsLab1Task4\obj\Debug\WindowsFormsLab1Task4.ChildForm.resources
