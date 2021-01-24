@@ -1,0 +1,10 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\bin\Debug\WindowsFormsLab1Task5-ellips.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\bin\Debug\WindowsFormsLab1Task5-ellips.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\bin\Debug\WindowsFormsLab1Task5-ellips.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5_ellips.Form1.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5_ellips.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5-ellips.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5-ellips.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5-ellips.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5-ellips.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1Task5-ellips\WindowsFormsLab1Task5-ellips\obj\Debug\WindowsFormsLab1Task5-ellips.csprojAssemblyReference.cache
