@@ -14,6 +14,7 @@ namespace WindowsFormsLab1Task3
         [STAThread]
         static void Main()
         {
+            Application.Run(new eForm());
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
