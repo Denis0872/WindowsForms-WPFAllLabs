@@ -1,0 +1,9 @@
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\bin\Debug\WindowsFormsTask2.exe.config
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\bin\Debug\WindowsFormsTask2.exe
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\bin\Debug\WindowsFormsTask2.pdb
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.Form1.resources
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.exe
+C:\Users\Пользователь\source\repos\WindowsFormsTask2\WindowsFormsTask2\obj\Debug\WindowsFormsTask2.pdb
