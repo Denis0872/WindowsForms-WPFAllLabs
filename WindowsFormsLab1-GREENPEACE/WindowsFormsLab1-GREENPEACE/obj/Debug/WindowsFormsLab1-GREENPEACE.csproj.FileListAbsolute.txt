@@ -1,0 +1,11 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\bin\Debug\WindowsFormsLab1-GREENPEACE.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\bin\Debug\WindowsFormsLab1-GREENPEACE.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\bin\Debug\WindowsFormsLab1-GREENPEACE.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1-GREENPEACE.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1_GREENPEACE.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1-GREENPEACE.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1-GREENPEACE.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1-GREENPEACE.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1-GREENPEACE.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1_GREENPEACE.GreenPeace.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WindowsFormsLab1-GREENPEACE\WindowsFormsLab1-GREENPEACE\obj\Debug\WindowsFormsLab1_GREENPEACE.StartForm.resources
