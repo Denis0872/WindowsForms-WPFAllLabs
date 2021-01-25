@@ -16,6 +16,7 @@ namespace WindowsFormsLab1Task4
         public ParentForm()
         {    
         InitializeComponent();
+            spData.Text = Convert.ToString(System.DateTime.Today.ToLongDateString());
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -45,11 +46,13 @@ namespace WindowsFormsLab1Task4
         private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+            spWin.Text = "Windows is cascade";
         }
 
         private void WindowTileMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+            spWin.Text = "Windows is horizontal";
         }
 
         private void NewMenuItem_Click(object sender, EventArgs e)
@@ -65,10 +68,10 @@ namespace WindowsFormsLab1Task4
         {
 
         }
-
         private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
         {
-            
+
         }
+
     }
 }
