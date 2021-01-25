@@ -1,0 +1,11 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.EditPersonForm.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.Form1.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\bin\Debug\WindowsFormsLab4Task2.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\bin\Debug\WindowsFormsLab4Task2.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\bin\Debug\WindowsFormsLab4Task2.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\EditPerson\WindowsFormsLab4Task2\obj\Debug\WindowsFormsLab4Task2.pdb
