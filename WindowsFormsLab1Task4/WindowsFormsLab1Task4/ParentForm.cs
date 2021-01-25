@@ -20,7 +20,21 @@ namespace WindowsFormsLab1Task4
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
+            switch (e.ClickedItem.Tag.ToString())
+            {
+                case "NewDoc":
+                    ChildForm newChild = new ChildForm();
+                    newChild.MdiParent = this;
+                    newChild.Show();
+                    newChild.Text = newChild.Text + " " + ++openDocuments;
+                    break;
+                case "Cascade":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+                    break;
+                case "Title":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+                    break;
+            }
         }
 
         private void ExitMenuItem_Click(object sender, EventArgs e)
@@ -45,6 +59,16 @@ namespace WindowsFormsLab1Task4
             newChild.MdiParent = this;
             newChild.Show();
             newChild.Text = newChild.Text + " " + ++openDocuments;
+        }
+
+        private void ParentForm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
+        {
+            
         }
     }
 }
