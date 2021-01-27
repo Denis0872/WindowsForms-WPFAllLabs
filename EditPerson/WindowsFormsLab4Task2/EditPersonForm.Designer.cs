@@ -1,8 +1,22 @@
 ﻿
+using System;
+using System.Windows.Forms;
+
 namespace WindowsFormsLab4Task2
 {
     partial class EditPersonForm
     {
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            p.FirstName = this.FirstName;
+            p.LastName = this.LastName;
+            p.Age = this.Age;
+            MessageBox.Show("Сотрудник: " + p.ToString());
+        }
+      
+      
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -62,6 +76,7 @@ namespace WindowsFormsLab4Task2
             this.button1.TabIndex = 3;
             this.button1.Text = "Сохранить";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -75,9 +90,10 @@ namespace WindowsFormsLab4Task2
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(61, 195);
+            this.vScrollBar1.LargeChange = 20;
+            this.vScrollBar1.Location = new System.Drawing.Point(61, 173);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(172, 57);
+            this.vScrollBar1.Size = new System.Drawing.Size(172, 102);
             this.vScrollBar1.TabIndex = 5;
             // 
             // EditPersonForm
@@ -100,6 +116,7 @@ namespace WindowsFormsLab4Task2
 
         }
 
+      
         #endregion
 
         private System.Windows.Forms.TextBox firstNameTextBox;
@@ -107,6 +124,7 @@ namespace WindowsFormsLab4Task2
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+   
 
         public string FirstName
         {
@@ -123,5 +141,6 @@ namespace WindowsFormsLab4Task2
             get { return (int)vScrollBar1.Value; }
             set { vScrollBar1.Value = value; }
         }
+
     }
 }
