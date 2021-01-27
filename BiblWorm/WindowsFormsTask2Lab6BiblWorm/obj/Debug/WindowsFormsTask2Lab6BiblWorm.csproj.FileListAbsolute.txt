@@ -1,0 +1,10 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\bin\Debug\WindowsFormsTask2Lab6BiblWorm.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\bin\Debug\WindowsFormsTask2Lab6BiblWorm.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\bin\Debug\WindowsFormsTask2Lab6BiblWorm.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\BiblWorm\WindowsFormsTask2Lab6BiblWorm\obj\Debug\WindowsFormsTask2Lab6BiblWorm.Form1.resources
