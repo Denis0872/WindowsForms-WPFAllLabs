@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Text;
 
 namespace WindowsFormsTask2Lab6BiblWorm
 {
@@ -233,14 +234,29 @@ namespace WindowsFormsTask2Lab6BiblWorm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Book b = new Book(Author, Title, PublishHouse,
+     Page, Year, InvNumber, Existence);
+            if (ReturnTime)
+                b.ReturnSrok();
+            b.PriceBook(PeriodUse);
+        
+            Author = Title = PublishHouse = "";
+            Page = InvNumber = PeriodUse = 0;
+            Year = 2000;
+            Existence = ReturnTime = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            if (SortInvNumber)
+                its.Sort();
+            StringBuilder sb = new StringBuilder();
+            foreach (Item item in its)
+            {
+                sb.Append("\n" + item.ToString());
+            }
+            richTextBox1.Text = sb.ToString();
         }
-
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
@@ -259,6 +275,7 @@ namespace WindowsFormsTask2Lab6BiblWorm
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private object its;
     }
 }
 

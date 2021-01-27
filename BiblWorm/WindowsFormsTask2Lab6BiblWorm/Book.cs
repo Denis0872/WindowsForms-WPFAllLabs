@@ -27,5 +27,10 @@ namespace WindowsFormsTask2Lab6BiblWorm
         {
             throw new NotImplementedException();
         }
+
+        internal void ReturnSrok()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
