@@ -62,7 +62,8 @@ namespace WindowsFormsLab2Task7
             {
                 e.Handled = true;
 
-MessageBox.Show("Поле Name не может содержать цифры");
+                MessageBox.Show("Поле Name не может содержать цифры");
+                errorProvider1.SetError(textBox1, "Must be letter");
             }
         }
 
