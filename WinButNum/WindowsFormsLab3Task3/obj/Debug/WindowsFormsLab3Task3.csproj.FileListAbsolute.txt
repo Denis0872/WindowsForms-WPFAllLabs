@@ -1,0 +1,11 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\bin\Debug\WindowsFormsLab3Task3.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\bin\Debug\WindowsFormsLab3Task3.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\bin\Debug\WindowsFormsLab3Task3.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.Form1.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WinButNum\WindowsFormsLab3Task3\obj\Debug\WindowsFormsLab3Task3.FormOut.resources
