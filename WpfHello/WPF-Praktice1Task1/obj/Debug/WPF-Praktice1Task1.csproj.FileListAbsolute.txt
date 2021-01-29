@@ -1,0 +1,15 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\bin\Debug\WPF-Praktice1Task1.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\bin\Debug\WPF-Praktice1Task1.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\bin\Debug\WPF-Praktice1Task1.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.g.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF_Praktice1Task1.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfHello\WPF-Praktice1Task1\obj\Debug\WPF-Praktice1Task1.pdb
