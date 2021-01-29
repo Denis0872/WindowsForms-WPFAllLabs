@@ -1,0 +1,10 @@
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\bin\Debug\WindowsFormsLab3Task1.exe.config
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\bin\Debug\WindowsFormsLab3Task1.exe
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\bin\Debug\WindowsFormsLab3Task1.pdb
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.UserControlTimer.resources
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.exe
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.pdb
+C:\Users\Пользователь\source\repos\WinTimer1\WindowsFormsLab3Task1\obj\Debug\WindowsFormsLab3Task1.Form1.resources
