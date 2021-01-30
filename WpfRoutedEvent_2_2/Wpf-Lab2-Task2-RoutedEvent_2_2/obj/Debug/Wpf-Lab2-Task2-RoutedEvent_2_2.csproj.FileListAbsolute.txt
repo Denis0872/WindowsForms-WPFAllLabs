@@ -1,0 +1,15 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\bin\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\bin\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\bin\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.g.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf_Lab2_Task2_RoutedEvent_2_2.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\obj\Debug\Wpf-Lab2-Task2-RoutedEvent_2_2.pdb

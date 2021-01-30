@@ -1,0 +1,15 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\bin\Debug\WPF-Lab3-Task1-NCommand.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\bin\Debug\WPF-Lab3-Task1-NCommand.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\bin\Debug\WPF-Lab3-Task1-NCommand.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.g.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF_Lab3_Task1_NCommand.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\NCommand\WPF-Lab3-Task1-NCommand\obj\Debug\WPF-Lab3-Task1-NCommand.pdb
