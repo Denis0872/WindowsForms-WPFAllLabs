@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf_Lab3_Task4_NCommand.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Lab3_Task4_NCommand"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="126" Margin="0,0,0,-4" VerticalAlignment="Bottom" Width="782">
+            <MenuItem Header="Правка">
+                <MenuItem Header="Копировать" CommandTarget="{Binding ElementName=MainWindow}" Command="Copy"/>
+                <MenuItem Header="Вырезать" CommandTarget="{Binding ElementName=MainWindow}" Command="Cut"/>
+                <MenuItem Header="Вставить" CommandTarget="{Binding ElementName=MainWindow}" Command="Paste"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
