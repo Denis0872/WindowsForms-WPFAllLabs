@@ -20,9 +20,29 @@ namespace WPF_Lab3_Task1_NCommand
     /// </summary>
     public partial class MainWindow : Window
     {
+        private void Launch_Handler(object sender, ExecutedRoutedEventArgs e)
+        {
+            richTextBox.AppendText(textBox.Text);
+            using (System.IO.StreamWriter writer = new System.IO.StreamWriter("log.txt", true))
+            {
+                writer.WriteLine("Внесено {0}: {1} ", textBox.Text, DateTime.Now.ToShortDateString() + ", время: " +
+                DateTime.Now.ToLongTimeString());
+
+            writer.Flush();
+            }
+        }
+        private void LaunchEnabled_Handler(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = (bool)checkBox.IsChecked;
+        }
         public MainWindow()
         {
             InitializeComponent();
+            CommandBinding abinding = new CommandBinding();
+            abinding.Command = CustomCommands.Launch;
+            abinding.Executed += new ExecutedRoutedEventHandler(Launch_Handler);
+            abinding.CanExecute += new CanExecuteRoutedEventHandler(LaunchEnabled_Handler);
+            this.CommandBindings.Add(abinding);
         }
     }
 }
