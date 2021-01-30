@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Set Name" HorizontalAlignment="Left" Margin="139,131,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.253,-7.227" Click="Button_Click"/>
-        <Button Content="Ret Name" HorizontalAlignment="Left" Margin="139,194,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-4.467,-11.727" Height="23" Click="Button_Click_1"/>
+        <Button x:Name="button" Content="Set Name" HorizontalAlignment="Left" Margin="139,131,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.253,-7.227" Click="Button_Click"/>
+        <Button x:Name="button1" Content="Ret Name" HorizontalAlignment="Left" Margin="139,194,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-4.467,-11.727" Height="23" Click="Button_Click_1"/>
         <Label Content="" HorizontalAlignment="Left" Margin="552,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.289,1.962"/>
         <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="263,135,0,0" VerticalAlignment="Top" Width="427" Background="#FFD8CDCD"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="570,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="570,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
 
     </Grid>
 </Window>
