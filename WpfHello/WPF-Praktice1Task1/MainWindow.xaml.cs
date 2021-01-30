@@ -61,5 +61,10 @@ namespace WPF_Praktice1Task1
         {
             button.IsEnabled = true;
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            myTextBox.Text = DateTime.Now.ToString();
+        }
     }
 }
