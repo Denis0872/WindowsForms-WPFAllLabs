@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Lab2-Task2-RoutedEvent_2_1", "Wpf-Lab2-Task2-RoutedEvent_2_1\Wpf-Lab2-Task2-RoutedEvent_2_1.csproj", "{15691DCD-1816-4945-9D48-1C005071F780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15691DCD-1816-4945-9D48-1C005071F780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15691DCD-1816-4945-9D48-1C005071F780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15691DCD-1816-4945-9D48-1C005071F780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15691DCD-1816-4945-9D48-1C005071F780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {371D917F-BB40-40C0-BD34-651E0572DB75}
+	EndGlobalSection
+EndGlobal
