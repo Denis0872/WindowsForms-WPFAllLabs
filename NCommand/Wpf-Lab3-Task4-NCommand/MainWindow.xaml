@@ -13,7 +13,14 @@
                 <MenuItem Header="Вырезать" CommandTarget="{Binding ElementName=MainWindow}" Command="Cut"/>
                 <MenuItem Header="Вставить" CommandTarget="{Binding ElementName=MainWindow}" Command="Paste"/>
             </MenuItem>
+            <MenuItem Header="Launch" Command="local:CustomCommands.Launch"/>
+            <MenuItem Header="Menu Items"/>
         </Menu>
+        <Button x:Name="textBox" Command="local:CustomCommands.Launch" Content="Launch" HorizontalAlignment="Left" Margin="98,136,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox x:Name="checkBox" Content="Enable Launch Command" HorizontalAlignment="Left" Margin="98,217,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="38" Margin="288,133,0,0" VerticalAlignment="Top" Width="376">
+            <FlowDocument/>
+        </RichTextBox>
 
     </Grid>
 </Window>
