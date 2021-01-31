@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_Lab4_Task2_UserIn2
+namespace WPU_lab4_task3_UserIn3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -34,20 +34,24 @@ namespace WPF_Lab4_Task2_UserIn2
             richTextBox1.Selection.ApplyPropertyValue(FontWeightProperty, FontWeights.Bold);
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             richTextBox1.Selection.ApplyPropertyValue(FontStyleProperty, FontStyles.Italic);
         }
 
-        private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty, new FontFamily(comboBox1.Text));
-            
-        }
-
         private void Slider1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            richTextBox1.Selection.ApplyPropertyValue(FontSizeProperty, Slider1.Value.ToString());
+        ValueChanged:
+            try
+            {
+                richTextBox1.Selection.ApplyPropertyValue(FontSizeProperty, Slider1.Value.ToString());
+            }
+            catch { }
+        }
+
+        private void listBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty, ((ListBoxItem)listBox1.SelectedItem).FontFamily);
         }
     }
 }

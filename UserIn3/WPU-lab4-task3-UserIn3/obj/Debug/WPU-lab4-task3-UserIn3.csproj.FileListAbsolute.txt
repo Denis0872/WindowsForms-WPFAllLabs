@@ -1,0 +1,15 @@
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\bin\Debug\WPU-lab4-task3-UserIn3.exe.config
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\bin\Debug\WPU-lab4-task3-UserIn3.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\bin\Debug\WPU-lab4-task3-UserIn3.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.g.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU_lab4_task3_UserIn3.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.exe
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn3\WPU-lab4-task3-UserIn3\obj\Debug\WPU-lab4-task3-UserIn3.pdb
