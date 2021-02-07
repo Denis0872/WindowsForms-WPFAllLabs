@@ -27,3 +27,4 @@ C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\Use
 C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn2\WPF-Lab4-Task2-UserIn2\obj\Debug\WPF-Lab4-Task2-UserIn2.csproj.CoreCompileInputs.cache
 C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn2\WPF-Lab4-Task2-UserIn2\obj\Debug\WPF-Lab4-Task2-UserIn2.exe
 C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn2\WPF-Lab4-Task2-UserIn2\obj\Debug\WPF-Lab4-Task2-UserIn2.pdb
+C:\Users\Пользователь\source\repos\WindowsForms\WindowsFormsLabs\UserIn2\WPF-Lab4-Task2-UserIn2\obj\Debug\WPF-Lab4-Task2-UserIn2.csprojAssemblyReference.cache

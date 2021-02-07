@@ -1,0 +1,89 @@
+﻿<Window x:Class="WpfAppCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppCalc"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Каркулятор" Height="419" Width="410" ResizeMode="NoResize" Cursor="Hand" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" Grid.IsSharedSizeScope="True">
+    <Window.Resources>
+        <SolidColorBrush x:Key="MyBrush" Color="Gold"/>
+        <Style TargetType="TextBox" x:Key="PageBackground">
+            <Setter Property="Foreground" Value="#FFFF5D00"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#70227E"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="{StaticResource MyBrush}"/>
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Opacity" Value="30"/>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="MainContainer" Background="#A68E00" HorizontalAlignment="Left" MinHeight="380" MaxHeight="380" Margin="0" VerticalAlignment="Top" MinWidth="397" MaxWidth="397" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+
+        <Grid.RowDefinitions >
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <CheckBox x:Name="panel1" IsChecked="True" Grid.Row="0" Grid.Column="0"  Background="#FFCF2020" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="3,6,8,7" Width="56">panel</CheckBox>
+        <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False">panel</CheckBox>
+        <TextBlock x:Name="Enter"   materialDesign:HintAssist.Hint="Введите число" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="4" Background="White" ToolTip="Поле ввода чисел" UseLayoutRounding="True" FontSize="20" Grid.IsSharedSizeScope="True" TextWrapping="WrapWithOverflow" FontWeight="Bold"/>
+
+        <Button Grid.Row="1" Grid.Column="0" ToolTip="число 1" Height="52" >1</Button>
+        <Button Grid.Row="1" Grid.Column="1" ToolTip="число 2">2</Button>
+        <Button Grid.Row="1" Grid.Column="2" ToolTip="число 3">3</Button>
+        <Button Grid.Row="2" Grid.Column="0" BorderThickness="1" ToolTip="число 4">4</Button>
+        <Button Grid.Row="2" Grid.Column="1" ToolTip="число 5">5</Button>
+        <Button Grid.Row="2" Grid.Column="2" ToolTip="число 6">6</Button>
+        <Button Grid.Row="3" Grid.Column="0" ToolTip="число 7">7</Button>
+        <Button Grid.Row="3" Grid.Column="1" ToolTip="число 8">8</Button>
+        <Button Grid.Row="3" Grid.Column="2" ToolTip="число 9">9</Button>
+        <Button Grid.Row="4" Grid.Column="1" ToolTip="число 0">0</Button>
+        <Button Grid.Row="4" Grid.Column="0">,</Button>
+        <Button Grid.Row="4" Grid.Column="2" ToolTip="плюс">+</Button>
+        <Button Grid.Row="4" Grid.Column="3" ToolTip="минус">-</Button>
+        <Button Grid.Row="4" Grid.Column="4" ToolTip="деление">/</Button>
+        <Button Grid.Row="4" Grid.Column="5" ToolTip="умножение">*</Button>
+        <Button Grid.Row="1" Grid.Column="4" ToolTip="Кнопка удаления знака">←</Button>
+        <Button Grid.Row="1" Grid.Column="5">Nⁿ</Button>
+        <Button Grid.Row="5" Grid.Column="0" ToolTip="Вычислить число в степени N">ⁿ²</Button>
+        <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" ToolTip="Закрыть каркулятор" Click="Button_Click_1" Margin="5,5,5,3" Panel.ZIndex="1" VerticalContentAlignment="Center" Opacity="1" MinWidth="1" IsManipulationEnabled="True" ForceCursor="True" FontSize="25">Close Calc</Button>
+        <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" ToolTip="Закончить операцию для знаков:+-/*" TextOptions.TextHintingMode="Fixed">=</Button>
+        <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление квадратного корня">√</Button>
+        <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление факториала">!</Button>
+        <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление обратного значения">1/x</Button>
+        <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="#DD0C0B0B" ToolTip="Кнопка сброса значений">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFD83D3D" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background> AC
+        </Button>
+        <WrapPanel Name ="panel"  Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="4" Margin="-5,61,-2,-2" Grid.Row="5" VerticalAlignment="Top" Width="404" Panel.ZIndex="1" Focusable="True"/>
+
+    </Grid>
+</Window>
+<!--<Viewbox Grid.Row="4" Grid.Column="0" Margin="5" Stretch="Uniform">
+    <Button>1</Button>
+</Viewbox>-->
