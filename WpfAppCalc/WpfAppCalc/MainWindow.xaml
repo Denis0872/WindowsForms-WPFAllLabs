@@ -42,10 +42,12 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <CheckBox x:Name="panel1" IsChecked="True" Grid.Row="0" Grid.Column="0"  Background="#FFCF2020" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="3,6,8,7" Width="56">panel</CheckBox>
-        <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False">panel</CheckBox>
-        <TextBlock x:Name="Enter"   materialDesign:HintAssist.Hint="Введите число" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="4" Background="White" ToolTip="Поле ввода чисел" UseLayoutRounding="True" FontSize="20" Grid.IsSharedSizeScope="True" TextWrapping="WrapWithOverflow" FontWeight="Bold"/>
-
+        <CheckBox x:Name="panel1" IsChecked="True" Grid.Row="0" Grid.Column="0"  Background="#FFCF2020" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="3,6,8,7" Width="56" Content="panel3"/>
+        <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False" Content="panel3" HorizontalContentAlignment="Center" Panel.ZIndex="3"/>
+        <TextBlock x:Name="Enter"   materialDesign:HintAssist.Hint="Введите число" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="4" Background="White" ToolTip="Поле ввода чисел" />
+        <WrapPanel Name="panel3" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3">
+            <Button  Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Background="DarkGreen" Height="64" Width="200" Panel.ZIndex="2" Margin="0"/>
+        </WrapPanel>
         <Button Grid.Row="1" Grid.Column="0" ToolTip="число 1" Height="52" >1</Button>
         <Button Grid.Row="1" Grid.Column="1" ToolTip="число 2">2</Button>
         <Button Grid.Row="1" Grid.Column="2" ToolTip="число 3">3</Button>
@@ -66,11 +68,10 @@
         <Button Grid.Row="5" Grid.Column="0" ToolTip="Вычислить число в степени N">ⁿ²</Button>
         <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" ToolTip="Закрыть каркулятор" Click="Button_Click_1" Margin="5,5,5,3" Panel.ZIndex="1" VerticalContentAlignment="Center" Opacity="1" MinWidth="1" IsManipulationEnabled="True" ForceCursor="True" FontSize="25">Close Calc</Button>
         <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" ToolTip="Закончить операцию для знаков:+-/*" TextOptions.TextHintingMode="Fixed">=</Button>
-        <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление квадратного корня">√</Button>
-        <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление факториала">!</Button>
-        <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление обратного значения">1/x</Button>
-        <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="#DD0C0B0B" ToolTip="Кнопка сброса значений">
-
+        <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление квадратного корня" HorizontalContentAlignment="Center" Panel.ZIndex="2" IsTabStop="False">√</Button>
+        <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление факториала" Panel.ZIndex="0">!</Button>
+        <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление обратного значения" Panel.ZIndex="1">1/x</Button>
+        <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="#DD0C0B0B" ToolTip="Кнопка сброса значений" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -80,7 +81,7 @@
                 </LinearGradientBrush>
             </Button.Background> AC
         </Button>
-        <WrapPanel Name ="panel"  Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="4" Margin="-5,61,-2,-2" Grid.Row="5" VerticalAlignment="Top" Width="404" Panel.ZIndex="1" Focusable="True"/>
+
 
     </Grid>
 </Window>
