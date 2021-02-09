@@ -21,9 +21,10 @@
             <Setter Property="FontFamily" Value="Trebuchet MS"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="Opacity" Value="30"/>
+
         </Style>
     </Window.Resources>
-    <Grid x:Name="MainContainer" Background="#A68E00" HorizontalAlignment="Left" MinHeight="380" MaxHeight="380" Margin="0" VerticalAlignment="Top" MinWidth="397" MaxWidth="397" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+    <Grid x:Name="MainContainer" Background="#A68E00" HorizontalAlignment="Left" MinHeight="380" MaxHeight="380" Margin="0" VerticalAlignment="Top" MinWidth="397" MaxWidth="397">
 
         <Grid.RowDefinitions >
             <RowDefinition/>
@@ -43,35 +44,39 @@
         </Grid.ColumnDefinitions>
 
         <CheckBox x:Name="panel1" IsChecked="True" Grid.Row="0" Grid.Column="0"  Background="#FFCF2020" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="3,6,8,7" Width="56" Content="panel3"/>
-        <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False" Content="panel3" HorizontalContentAlignment="Center" Panel.ZIndex="3"/>
+        <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False" Content="panel4" HorizontalContentAlignment="Center" />
         <TextBlock x:Name="Enter"   materialDesign:HintAssist.Hint="Введите число" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="4" Background="White" ToolTip="Поле ввода чисел" />
         <WrapPanel Name="panel3" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3">
             <Button  Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Background="DarkGreen" Height="64" Width="200" Panel.ZIndex="2" Margin="0"/>
         </WrapPanel>
-        <Button Grid.Row="1" Grid.Column="0" ToolTip="число 1" Height="52" >1</Button>
-        <Button Grid.Row="1" Grid.Column="1" ToolTip="число 2">2</Button>
-        <Button Grid.Row="1" Grid.Column="2" ToolTip="число 3">3</Button>
-        <Button Grid.Row="2" Grid.Column="0" BorderThickness="1" ToolTip="число 4">4</Button>
-        <Button Grid.Row="2" Grid.Column="1" ToolTip="число 5">5</Button>
-        <Button Grid.Row="2" Grid.Column="2" ToolTip="число 6">6</Button>
-        <Button Grid.Row="3" Grid.Column="0" ToolTip="число 7">7</Button>
-        <Button Grid.Row="3" Grid.Column="1" ToolTip="число 8">8</Button>
-        <Button Grid.Row="3" Grid.Column="2" ToolTip="число 9">9</Button>
-        <Button Grid.Row="4" Grid.Column="1" ToolTip="число 0">0</Button>
-        <Button Grid.Row="4" Grid.Column="0">,</Button>
-        <Button Grid.Row="4" Grid.Column="2" ToolTip="плюс">+</Button>
-        <Button Grid.Row="4" Grid.Column="3" ToolTip="минус">-</Button>
-        <Button Grid.Row="4" Grid.Column="4" ToolTip="деление">/</Button>
-        <Button Grid.Row="4" Grid.Column="5" ToolTip="умножение">*</Button>
+        <WrapPanel Name="panel4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="4">
+            <Button Grid.Row="1" Grid.Column="0" ToolTip="число 1" Height="55" Panel.ZIndex="1" Width="55" Click="Button_Click" >1</Button>
+            <Button Grid.Row="1" Grid.Column="1" ToolTip="число 2" Width="55" Click="Button_Click">2</Button>
+            <Button Grid.Row="1" Grid.Column="2" ToolTip="число 3" Width="55" Click="Button_Click" Height="55">3</Button>
+            <Button BorderThickness="1" ToolTip="число 4" Width="55" Height="55" Click="Button_Click" Content="4"/>
+            <Button ToolTip="число 5" Content="5" RenderTransformOrigin="6.562,-0.345" Width="55" Height="55" Click="Button_Click"/>
+            <Button  Grid.Row="2" Grid.Column="2" ToolTip="число 6" Width="55" Click="Button_Click" Height="55">6</Button>
+            <Button Grid.Row="3" Grid.Column="0" ToolTip="число 7" Width="55" Height="55" Click="Button_Click">7</Button>
+            <Button Grid.Row="3" Grid.Column="1" ToolTip="число 8" Width="55" Click="Button_Click">8</Button>
+            <Button Grid.Row="3" Grid.Column="2" ToolTip="число 9" Width="55" Click="Button_Click" Height="55">9</Button>
+            <Button Grid.Row="4" Grid.Column="1" ToolTip="число 0" Height="55" Width="55" Click="Button_Click">0</Button>
+            <Button Grid.Row="4" Grid.Column="0" Width="55" Height="55" Click="Button_Click" >,</Button>
+            <Button Grid.Row="4" Grid.Column="2" ToolTip="плюс" Width="55" Click="Button_Click" Height="55">+</Button>
+        </WrapPanel>
+        
+       
+        <Button Grid.Row="4" Grid.Column="3" ToolTip="минус" Height="Auto" Margin="5" Width="55">-</Button>
+        <Button Grid.Row="4" Grid.Column="4" ToolTip="деление" Height="55" Width="55">/</Button>
+        <Button Grid.Row="4" Grid.Column="5" ToolTip="умножение" Height="55" Width="55">*</Button>
         <Button Grid.Row="1" Grid.Column="4" ToolTip="Кнопка удаления знака">←</Button>
-        <Button Grid.Row="1" Grid.Column="5">Nⁿ</Button>
+        <Button Grid.Row="1" Grid.Column="5" Height="55">Nⁿ</Button>
         <Button Grid.Row="5" Grid.Column="0" ToolTip="Вычислить число в степени N">ⁿ²</Button>
         <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" ToolTip="Закрыть каркулятор" Click="Button_Click_1" Margin="5,5,5,3" Panel.ZIndex="1" VerticalContentAlignment="Center" Opacity="1" MinWidth="1" IsManipulationEnabled="True" ForceCursor="True" FontSize="25">Close Calc</Button>
-        <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" ToolTip="Закончить операцию для знаков:+-/*" TextOptions.TextHintingMode="Fixed">=</Button>
+        <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" ToolTip="Закончить операцию для знаков:+-/*" TextOptions.TextHintingMode="Fixed" Height="55">=</Button>
         <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление квадратного корня" HorizontalContentAlignment="Center" Panel.ZIndex="2" IsTabStop="False">√</Button>
         <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление факториала" Panel.ZIndex="0">!</Button>
         <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" ToolTip="Вычисление обратного значения" Panel.ZIndex="1">1/x</Button>
-        <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="#DD0C0B0B" ToolTip="Кнопка сброса значений" >
+        <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="#DD0C0B0B" ToolTip="Кнопка сброса значений" Height="55" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
