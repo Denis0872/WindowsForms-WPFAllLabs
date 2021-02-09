@@ -49,7 +49,7 @@
         <WrapPanel Name="panel3" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3">
             <Button  Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Background="DarkGreen" Height="64" Width="200" Panel.ZIndex="2" Margin="0"/>
         </WrapPanel>
-        <WrapPanel Name="panel4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="4">
+        <WrapPanel Name="panel4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="4" >
             <Button Grid.Row="1" Grid.Column="0" ToolTip="число 1" Height="55" Panel.ZIndex="1" Width="55" Click="Button_Click" >1</Button>
             <Button Grid.Row="1" Grid.Column="1" ToolTip="число 2" Width="55" Click="Button_Click">2</Button>
             <Button Grid.Row="1" Grid.Column="2" ToolTip="число 3" Width="55" Click="Button_Click" Height="55">3</Button>
