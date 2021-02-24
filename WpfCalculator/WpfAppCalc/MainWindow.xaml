@@ -46,7 +46,7 @@
         <CheckBox x:Name="panel1" IsChecked="True" Grid.Row="0" Grid.Column="0"  Background="#FFCF2020" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="3,6,8,7" Width="56" Content="panel3"/>
         <CheckBox x:Name="panel2"  IsChecked="True" Grid.Row="0" Grid.Column="1" Background="#FFD41A1A" IsManipulationEnabled="True" IsTabStop="False" Content="panel4" HorizontalContentAlignment="Center" />
         <TextBlock x:Name="Enter"   materialDesign:HintAssist.Hint="Введите число" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="4" Background="White" ToolTip="Поле ввода чисел" />
-        <WrapPanel Name="panel3" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3">
+        <WrapPanel Name="panel3" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3" >
             <Button  Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Background="DarkGreen" Height="64" Width="200" Panel.ZIndex="2" Margin="0"/>
         </WrapPanel>
         <WrapPanel Name="panel4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="4" >
