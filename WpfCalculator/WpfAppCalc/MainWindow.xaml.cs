@@ -22,7 +22,7 @@ namespace WpfAppCalc
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        private string result;
 
         public MainWindow()
         {
@@ -31,15 +31,25 @@ namespace WpfAppCalc
             AddHandler(System.Windows.Controls.Primitives.ToggleButton.UncheckedEvent, new RoutedEventHandler(chk_Unchecked));
             foreach (UIElement el in MainContainer.Children)
             {
+
                 if (el is Button)
                 {
                     ((Button)el).Click += Button_Click;
                 }
+ 
+
             }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            if ((object)sender == "√")
+            {
+                string x = "1";
+                Enter.Text = x;
+            }
+
             string str = (string)((Button)e.OriginalSource).Content;
             if (str == "AC")
                 Enter.Text = "";
@@ -66,6 +76,7 @@ namespace WpfAppCalc
             }
             else if (str == "!")
             {
+
                 int x = int.Parse(Enter.Text);
                 if (x > 0)
                 {
@@ -104,29 +115,17 @@ namespace WpfAppCalc
             }
             else if (str == "ⁿ²")
             {
+
                 dynamic x = Convert.ToDouble(Enter.Text);
                 double value = x * x;
                 Enter.Text = value.ToString();
-            }
-            /*  else if (str == "ⁿ")
-              {
-                   string p= Enter.Text;
-                  int k = Convert.ToInt32(p);
-                  //Thread.Sleep(500);
 
-                  string str2 = "5";
-                  Enter.Text = str2;
-                  string s = Enter.Text;
-                  int n = Convert.ToInt32(s);
-                  int j=0;
-                  int b = 1;
-                  while (j <= n)
-                  { j++;b *= k; }
-                  int value = b;
-                  Enter.Text = value.ToString();
-              }*/
+
+            }
+
             else
                 Enter.Text += str;
+
         }
 
 
@@ -154,5 +153,6 @@ namespace WpfAppCalc
             Application.Current.Shutdown();
         }
 
+        
     }
-}
+} 
