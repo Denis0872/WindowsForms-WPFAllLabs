@@ -44,30 +44,36 @@ namespace WpfAppCalc
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            if ((object)sender == "√")
-            {
-                string x = "1";
-                Enter.Text = x;
-            }
-
             string str = (string)((Button)e.OriginalSource).Content;
             if (str == "AC")
                 Enter.Text = "";
             else if (str == "=")
             {
+                try 
+                { 
                 dynamic value = (dynamic)new DataTable().Compute(Enter.Text, null);
                 Enter.Text = value.ToString();
+                }
+                catch (Exception ex)
+                {
+                    Enter.Text=(ex.Message);
+                }
 
             }
             else if (str == "√")
             {
+                
                 double x = Convert.ToDouble(Enter.Text);
-                double value = Math.Sqrt(x);
-                Enter.Text = value.ToString();
+                if (x > 0)
+                {
+                    double value = Math.Sqrt(x);
+                    Enter.Text = value.ToString();
+                }
+                else
+                    Enter.Text="Введено отрицательное число";
             }
             else if (str == "Nⁿ")
             {
-
                 double x = Convert.ToDouble(Enter.Text);
                 double y = Convert.ToDouble(Enter.Text);
 

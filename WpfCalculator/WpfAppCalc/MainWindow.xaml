@@ -71,7 +71,7 @@
         <Button Grid.Row="4" Grid.Column="4" ToolTip="деление" Height="55" Width="55" Content="/" IsEnabled="{Binding ElementName=Enter, Path=Text.Length}" />
         <Button Grid.Row="4" Grid.Column="5" ToolTip="умножение" Height="55" Width="55" Content="*" IsEnabled="{Binding ElementName=Enter, Path=Text.Length}" />
         <Button Grid.Row="1" Grid.Column="4" ToolTip="Кнопка удаления знака" Content="←"/>
-        <Button Grid.Row="1" Grid.Column="5" Height="55" Content="Nⁿ " IsEnabled="{Binding ElementName=Enter, Path=Text.Length}" />
+        <Button Grid.Row="1" Grid.Column="5" Height="55" Content="Nⁿ" IsEnabled="{Binding ElementName=Enter, Path=Text.Length}" />
         <Button Grid.Row="5" Grid.Column="0" ToolTip="Вычислить число в степени N" Content="ⁿ²" IsEnabled="{Binding ElementName=Enter, Path=Text.Length}" />
         <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" ToolTip="Закрыть каркулятор" Click="Button_Click_1" Margin="5,5,5,3" Panel.ZIndex="1" VerticalContentAlignment="Center" Opacity="1" MinWidth="1" IsManipulationEnabled="True" ForceCursor="True" FontSize="25" Content="Close Calc"/>
         <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" ToolTip="Закончить операцию для знаков:+-/*" TextOptions.TextHintingMode="Fixed" Height="55" Content="="/>
